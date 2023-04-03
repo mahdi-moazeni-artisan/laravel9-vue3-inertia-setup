@@ -22,3 +22,14 @@ composer require inertiajs/inertia-laravel
   </body>
 </html>
 
+#install inertia front-side adapter
+#install inertia middleware
+php artisan inertia:middleware
+
+#maked app\Http\Middleware\HandleInertiaRequests.php
+
+#Go to App\Http\Kernel add \App\Http\Middleware\HandleInertiaRequests::class,
+'web' => [
+    // ...
+    \App\Http\Middleware\HandleInertiaRequests::class,
+],
