@@ -52,3 +52,6 @@ createInertiaApp({
       .mount(el)
   },
 })
+
+#install vue_vue-loader_compiler-sfc
+npm install vue@next vue-loader@next @vue/compiler-sfc
