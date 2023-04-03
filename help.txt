@@ -55,3 +55,6 @@ createInertiaApp({
 
 #install vue_vue-loader_compiler-sfc
 npm install vue@next vue-loader@next @vue/compiler-sfc
+
+#install vitejs plugin-vue
+npm install @vitejs/plugin-vue
