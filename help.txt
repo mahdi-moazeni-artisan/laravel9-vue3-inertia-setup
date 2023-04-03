@@ -88,3 +88,6 @@ export default defineConfig({
 });
 
 #make resources\js\Pages\Home.vue
+
+npm install
+npm run dev
