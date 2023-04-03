@@ -22,7 +22,6 @@ composer require inertiajs/inertia-laravel
   </body>
 </html>
 
-#install inertia front-side adapter
 #install inertia middleware
 php artisan inertia:middleware
 
@@ -33,3 +32,7 @@ php artisan inertia:middleware
     // ...
     \App\Http\Middleware\HandleInertiaRequests::class,
 ],
+
+#install inertia front-side adapter
+#install inertiajs vue3
+npm install @inertiajs/vue3
