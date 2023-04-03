@@ -1,2 +1,6 @@
--install laravel
+#install laravel
 composer create-project --prefer-dist laravel/laravel:^9 your_favorite_name_project
+
+#adjustment env
+APP_NAME="Laravel9-vue3-inertia setup"
+APP_URL=http://127.0.0.1:8000
