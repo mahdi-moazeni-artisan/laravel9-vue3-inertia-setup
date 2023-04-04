@@ -91,3 +91,5 @@ export default defineConfig({
 
 npm install
 npm run dev
+
+#modified Home.vue and routes\web.php
